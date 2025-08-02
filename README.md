@@ -94,6 +94,20 @@ Build a regression model that predicts future Electric Vehicle (EV) adoption usi
 
 ---
 
+## 🚀 How to Run Locally
+
+1. **Clone the repository**  
+git clone git@github.com:Sunidhi-24/EV-Adoption-Forecasting.git
+cd EV-Adoption-Forecasting
+
+2. **Install dependencies**
+pip install -r requirements.txt
+
+3. **Launch the app**
+streamlit run app.py
+
+---
+
 ## 🔧 Use Cases
 
 - 📍 **Urban Planning:**  
@@ -113,7 +127,6 @@ Build a regression model that predicts future Electric Vehicle (EV) adoption usi
 ## 🚀 Future Work
 
 - 📡 Integrate real-time data via APIs for live predictions
-- 📊 Build an interactive dashboard using Streamlit or Flask
 - 🌍 Expand the model to include socio-economic and climate variables
 - 🔍 Evaluate other regression models (XGBoost, LightGBM, etc.) for comparison
 - 💬 Add a chatbot or voice assistant interface for querying forecasts

@@ -57,19 +57,19 @@ Build a regression model that predicts future Electric Vehicle (EV) adoption usi
 
 ## 📁 Repository Structure
 
-| File                          | Description                                                |
-|-------------------------------|------------------------------------------------------------|
-| `main.ipynb`                  | Jupyter notebook with full pipeline (EDA → Modeling)       |
-| `dataset.csv`                 | Raw Kaggle dataset                                         |
-| `preprocessed_ev_data.csv`   | Cleaned and encoded dataset ready for model training       |
-| `forecasting_ev_model.pkl`   | Trained Random Forest model (same as `ev_demand.pkl`)      |
+| File                                          | Description                                                |
+|-----------------------------------------------|------------------------------------------------------------|
+| `EV_Adoption_Forecasting.ipynb`               | Jupyter notebook with full pipeline (EDA → Modeling)       |
+| `Electric_Vehicle_Population_By_County.csv`   | Raw Kaggle dataset                                         |
+| `preprocessed_ev_data.csv`                    | Cleaned and encoded dataset ready for model training       |
+| `forecasting_ev_model.pkl`                    | Trained Random Forest model (same as `ev_demand.pkl`)      |
 
 ---
 
 ## 🚀 How to Run Locally
 
 1. **Clone the repository**  
-git clone git@github.com:Sunidhi-24/EV-Adoption-Forecasting.git
+git clone https://github.com:Sunidhi-24/EV-Adoption-Forecasting.git
 cd EV-Adoption-Forecasting
 
 2. **Install dependencies**
